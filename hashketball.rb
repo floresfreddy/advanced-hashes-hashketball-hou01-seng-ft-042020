@@ -140,6 +140,10 @@ def num_points_scored(player)
   end
 end
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3aa9e9e3ebd369823850d64f14947943d881c74
 def shoe_size(player)
   game_hash.each do |team, team_info|
     team_info[:players].each do |players|
@@ -150,13 +154,22 @@ def shoe_size(player)
   end
 end
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3aa9e9e3ebd369823850d64f14947943d881c74
 def team_colors(name)
   game_hash.each do |place, team_info|
     if team_info[:team_name] == name
       return game_hash[place][:colors]
     end
   end
+<<<<<<< HEAD
 end
+=======
+
+
+>>>>>>> a3aa9e9e3ebd369823850d64f14947943d881c74
 
 def team_names
   game_hash.map do |place, team_info|
@@ -164,6 +177,7 @@ def team_names
   end
 end
 
+<<<<<<< HEAD
 def player_numbers(team_name)
   game_hash.map do |team, team_info|
     if team_info[:team_name] == team_name
@@ -200,3 +214,8 @@ def big_shoe_rebounds
   rebounds
 end
   
+=======
+
+
+
+>>>>>>> a3aa9e9e3ebd369823850d64f14947943d881c74
